@@ -13,3 +13,5 @@ int main() {
 // 1 : prova variabile temporanea
 
 // 2 : test incremento
+
+// 3 : ritocco formattazione
