@@ -2,8 +2,8 @@
 
 int main() {
     printf("--- Prove Varie ---\n");
-    int x = 10;
-    x += 5;
-    printf("x aggiornato: %d\n", x);
+    int punteggio = 75;
+    char esito = (punteggio >= 60) ? 'P' : 'B';
+    printf("esito esame: %c\n", esito);
     return 0;
 }
