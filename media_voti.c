@@ -7,6 +7,8 @@ int main() {
         somma += voti[i];
     }
     float media = (float)somma / 4;
-    printf("media: %.2f\n", media);
+    printf("media finale: %.2f\n", media);
+    if (media >= 6.0) printf("promosso!\n");
+    else printf("bocciato :(\n");
     return 0;
 }
