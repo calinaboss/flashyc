@@ -7,3 +7,5 @@ int main() {
     printf("esito esame: %c\n", esito);
     return 0;
 }
+
+// 0 : piccolo aggiustamento print
