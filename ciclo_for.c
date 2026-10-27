@@ -2,7 +2,9 @@
 
 int main() {
     for (int i = 1; i <= 10; i++) {
-        printf("numero: %d\n", i);
+        if (i % 2 == 0) {
+            printf("pari: %d\n", i);
+        }
     }
     return 0;
 }
