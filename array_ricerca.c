@@ -3,14 +3,14 @@
 int main() {
     int lista[] = {4, 8, 15, 16, 23, 42};
     int cercato = 15;
-    int trovato = 0;
+    int pos = -1;
     for (int i = 0; i < 6; i++) {
         if (lista[i] == cercato) {
-            trovato = 1;
+            pos = i;
             break;
         }
     }
-    if (trovato) printf("elemento trovato!\n");
-    else printf("non trovato :(\n");
+    if (pos != -1) printf("trovato alla posizione indice %d\n", pos);
+    else printf("non presente nella lista\n");
     return 0;
 }
