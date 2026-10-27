@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int eta = 18;
+    int eta = 16;
     if (eta >= 18) {
         printf("sei maggiorenne\n");
     } else {
