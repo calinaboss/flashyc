@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-void saluta() {
-    printf("buongiorno a tutti\n");
+void saluta_utente(char nome[]) {
+    printf("ciao %s!\n", nome);
 }
 
 int main() {
-    saluta();
+    saluta_utente("Marco");
     return 0;
 }
