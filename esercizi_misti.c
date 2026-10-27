@@ -19,3 +19,5 @@ int main() {
 // 4 : controllo valore ritorno
 
 // 5 : modifica minore di test
+
+// 6 : verifica finale
