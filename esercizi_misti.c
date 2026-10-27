@@ -15,3 +15,5 @@ int main() {
 // 2 : test incremento
 
 // 3 : ritocco formattazione
+
+// 4 : controllo valore ritorno
