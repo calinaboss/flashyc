@@ -1,16 +1,19 @@
 #include <stdio.h>
 
 int main() {
-    int scelta = 2;
+    int scelta = 3;
     switch (scelta) {
         case 1:
-            printf("hai scelto opzione 1\n");
+            printf("avvio gioco...\n");
             break;
         case 2:
-            printf("hai scelto opzione 2\n");
+            printf("mostra impostazioni...\n");
+            break;
+        case 3:
+            printf("uscita dal programma. ciao!\n");
             break;
         default:
-            printf("scelta non valida\n");
+            printf("opzione non riconosciuta\n");
     }
     return 0;
 }
