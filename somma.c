@@ -1,9 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    int a = 5;
-    int b = 7;
-    int risultato = a + b;
-    printf("somma: %d\n", risultato);
+    int a, b;
+    printf("inserisci primo numero: ");
+    scanf("%d", &a);
+    printf("inserisci secondo numero: ");
+    scanf("%d", &b);
+    printf("la somma e: %d\n", a + b);
     return 0;
 }
