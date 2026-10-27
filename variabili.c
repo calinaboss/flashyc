@@ -2,7 +2,7 @@
 
 int main() {
     int numero = 10;
-    float prezzo = 4.50;
-    printf("valore: %d, prezzo: %.2f\n", numero, prezzo);
+    float costo = 4.50;
+    printf("totale numero %d e costo %.2f euro\n", numero, costo);
     return 0;
 }
