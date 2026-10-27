@@ -9,3 +9,5 @@ int main() {
 }
 
 // 0 : piccolo aggiustamento print
+
+// 1 : prova variabile temporanea
