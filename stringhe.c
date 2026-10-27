@@ -2,7 +2,12 @@
 #include <string.h>
 
 int main() {
-    char parola[50] = "programmare in c";
-    printf("la frase '%s' ha %lu caratteri\n", parola, strlen(parola));
+    char pass_giusta[] = "segreto123";
+    char pass_inserita[] = "segreto123";
+    if (strcmp(pass_giusta, pass_inserita) == 0) {
+        printf("accesso consentito!\n");
+    } else {
+        printf("password errata\n");
+    }
     return 0;
 }
