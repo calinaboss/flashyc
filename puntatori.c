@@ -3,8 +3,7 @@
 int main() {
     int val = 42;
     int *p = &val;
-    printf("valore di val: %d\n", val);
-    printf("indirizzo in memoria: %p\n", p);
-    printf("valore puntato da p: %d\n", *p);
+    *p = 99;
+    printf("nuovo valore di val modificato da puntatore: %d\n", val);
     return 0;
 }
