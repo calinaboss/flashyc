@@ -6,5 +6,7 @@ void saluta_utente(char nome[]) {
 
 int main() {
     saluta_utente("Marco");
+    saluta_utente("Luca");
+    saluta_utente("Sara");
     return 0;
 }
